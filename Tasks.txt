@@ -1,0 +1,6 @@
+HTML
+
+## TASK 1
+1. Make an UI(User Interface) using HTML, in which mainly sematic elements should be used, having minimum 3 links which will include internal link, external link and also relative and absolute path usecases. And add minimum one image in your website.
+
+Optional: you can push your code to your github
