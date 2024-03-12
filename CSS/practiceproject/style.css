@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* flexbox */
+
+nav {
+    display: flex; /* this property do align horizontally to the elements */
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+/* units in css
+px em rem %
+
+*/
+
+h2 {
+    /* margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px; */
+
+    /* margin: 10px 10px 10px 10px; */
+    /* margin: 20px 20px 20px 20px; -> it will reflect in the web id again margin will use */
+
+    /*margin: 10px 10px;  first value -> from top and bottom  2nd value-> from left and right*/
+
+    margin: 10px;
+
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+
+    /* padding: 10px 10px 10px 10px; */
+
+    padding: 10px;
+    cursor: pointer;
+    color: tomato;
+
+    /* background-color: lightblue; */
+
+}
+
+.navbar-right-menu {
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    /* background-color: rgb(164, 13, 13); */
+}
+
+.navbar-link {
+    /* color: white; */
+    margin-right: 10px;
+    cursor: pointer;
+ }
+/* :hover => pseudo selector */
+ .navbar-link:hover {
+    color: tomato;
+ }
+
+/* 
+colors in css
+
+Hex => #ffffff
+RGB => rgb(red, green, blue)
+RGBA => rgba(red, green, blue, alpha)
+# alpha -> opacity
+HSL => Hue saturation lightness hsl()
+
+*/
+
+#home-link {
+    /* margin-right: 10px; */
+    color: rgba(34, 202, 34, 0.84);
+    /* padding: 10px; */
+    /* background-color: blue; */
+}
+
+#home-link:hover {
+    color: tomato;
+}
