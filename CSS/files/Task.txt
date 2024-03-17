@@ -1,2 +1,3 @@
 ## TASK 1 - CSS
 1. make a navbar using header and nav tag and implement the css. 
+2. create some cards and wrap that in another section.

@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* overflow-x: hidden; */
 }
 
 /* flexbox */
@@ -84,4 +85,62 @@ HSL => Hue saturation lightness hsl()
 
 #home-link:hover {
     color: tomato;
+}
+
+.caraousel-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.caraousel-container > h1 {
+    color: tomato;
+    /* margin: 20px 0 0 0; */
+    margin-top: 20px;
+}
+
+.caraousel-img {
+    width: 80%;
+    height: 60vh;
+    /* margin: 10px 0; */
+}
+
+.product-heading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.parent-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card-name {
+    font-size: 20px;
+    font-weight: bold;
 }
