@@ -1,3 +1,8 @@
+:root {
+    --primary-color: rgba(34, 202, 34, 0.84);
+    --secondary-color: #496989;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -78,13 +83,14 @@ HSL => Hue saturation lightness hsl()
 
 #home-link {
     /* margin-right: 10px; */
-    color: rgba(34, 202, 34, 0.84);
+    /* color: rgba(34, 202, 34, 0.84); */
+    color: var(--primary-color);
     /* padding: 10px; */
     /* background-color: blue; */
 }
 
 #home-link:hover {
-    color: tomato;
+    color: var(--secondary-color)
 }
 
 .caraousel-container {
@@ -115,7 +121,7 @@ HSL => Hue saturation lightness hsl()
 .parent-card {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 30px;
     margin: 30px;
@@ -126,8 +132,8 @@ HSL => Hue saturation lightness hsl()
     height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* vertical align */
+    align-items: center; /* horizontal align */
     gap: 10px;
     background-color: tomato;
     color: white;
@@ -143,4 +149,47 @@ HSL => Hue saturation lightness hsl()
 .card-name {
     font-size: 20px;
     font-weight: bold;
+}
+
+.service-img {
+    width: 300px;
+    height: 400px;
+}
+
+#service-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    /* background-color: aqua; */
+}
+
+.left-service {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-service {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    /* background-color: blueviolet; */
+
+}
+
+.service-btn {
+    width: 30%;
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 5px 0;
+    /* border-radius: 5px; */
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 5px 5px 10px 2px rgb(247, 74, 6)
+
 }
