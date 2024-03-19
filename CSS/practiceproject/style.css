@@ -1,6 +1,6 @@
 :root {
     --primary-color: rgba(34, 202, 34, 0.84);
-    --secondary-color: #496989;
+    --secondary-color: #2e84db;
 }
 
 * {
@@ -17,6 +17,7 @@ nav {
     display: flex; /* this property do align horizontally to the elements */
     justify-content: space-between;
     /* background-color: aqua; */
+
 }
 
 /* units in css
@@ -64,7 +65,15 @@ h2 {
     /* color: white; */
     margin-right: 10px;
     cursor: pointer;
+    /* text-decoration: none; */
  }
+
+a {
+    text-decoration: none;
+    color: #2e84db;
+}
+
+
 /* :hover => pseudo selector */
  .navbar-link:hover {
     color: tomato;
@@ -90,7 +99,7 @@ HSL => Hue saturation lightness hsl()
 }
 
 #home-link:hover {
-    color: var(--secondary-color)
+    color: var(--secondary-color);
 }
 
 .caraousel-container {
@@ -138,6 +147,7 @@ HSL => Hue saturation lightness hsl()
     background-color: tomato;
     color: white;
     border-radius: 10px;
+    position: relative;
 }
 
 .card-image {
@@ -149,6 +159,15 @@ HSL => Hue saturation lightness hsl()
 .card-name {
     font-size: 20px;
     font-weight: bold;
+}
+
+.card-price {
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    background-color: var(--secondary-color);
+    padding: 5px;
+    border-radius: 3px;
 }
 
 .service-img {
